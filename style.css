@@ -71,6 +71,7 @@ header{
     left: 0px;
     width: 200px;
     background: navy;
+    display: none;
 }
 .menu-site li:hover ul{
     display: block;
