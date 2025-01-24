@@ -1,11 +1,10 @@
 body{
-    background:  black;
+    background:  rgb(241, 241, 241);
 }
-div{
-    background: black;
-    color: dimgray;
-    border: 4px;
+footer{
+    background-color: #cc00cc;
 }
+
 div{
     p{
         color: aqua;
@@ -20,8 +19,9 @@ div ul li img{
     alt: 'photo image poster';
 }
 /* оформление навигационного меню */
-header{
-    background: #0066CC;
+header,footer{
+    background: #cc00cc;
+
 }
 #menu1{
     position: relative;
@@ -91,4 +91,46 @@ header{
     box-sizing: border-box;
     border-top: 1px solid #fff;
     color:white
+}
+/*оформление футера */
+.footer-menu{
+
+}
+.footer-menu li{
+    list-style: none;
+    height: auto;
+
+}
+.footer-menu li a{
+    text-decoration: none;
+    font-size: 24px;
+}
+.footer-colums{
+    display: flex;
+    text-align: center;
+    vertical-align: center  ;
+}
+.footer-colum{
+    flex: 33%;
+}
+.footer-colum p a{
+    
+    text-decoration: none;
+    color: black;
+}
+/* создание постов*/
+.post{
+    background: grey;
+    border: 4px solid black;
+    margin: 0px 0px 8px 8px;
+    display: flex;
+    box-shadow: -2px 15px 8px 2px rgba(34, 60, 80, 0.2);
+}
+.post p a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+.post-info{
+    border-bottom: 3px solid black;
 }
