@@ -151,14 +151,21 @@ div{
     box-sizing: border-box;
     border-top: 1px solid #fff;
     color:white
+    
 }
 .black{
     h1{
         color: black;
+        background: white;
     }
 }
 .red{
     h1{
         color: red;
+        
+        background: white;
     }
+}
+.page .cod xmp{ 
+ background-color: aliceblue;
 }
