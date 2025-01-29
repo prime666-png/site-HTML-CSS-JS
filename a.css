@@ -168,4 +168,12 @@ div{
 }
 .page .cod xmp{ 
  background-color: aliceblue;
+}   
+.g1 a{
+    text-decoration: none;
+    color: blue;
+}
+.g2 a{
+    text-decoration: none;
+    color: blue;
 }
