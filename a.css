@@ -177,3 +177,25 @@ div{
     text-decoration: none;
     color: blue;
 }
+.hope{
+    background-color:#ba6976;
+}
+.gg{
+    padding-right:7px;
+    background: #e1a1ae;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    height: 25px;
+    width: max-content;     
+    margin: 15px;
+
+}
+.gr{
+    background: #923d4b;
+    width: 1000px;
+    height: 30px;
+    padding-right:35px;
+}
+.hu{
+    position: relative;
+}
