@@ -1,0 +1,127 @@
+body{
+    background-color: #f7f7f7;
+    font-size: 15px;
+    font-family: Arial sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.product_grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_grid__item{
+    border: solid 0.1em lightgray;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.menu_horizontal{
+    display: flex;
+    width: 400px;
+}
+span{
+    color: white;
+    padding: 0 50px 0 0;
+    font-size: 13px;
+    font-family: Calibri, sans-serif;
+}
+img{
+    width: 50px;
+    padding: 0 10px 0 10px;
+}
+.li_img{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    background: darkgrey;
+}
+li:hover{
+    background: grey;
+}
+h2{
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.mainBlock1{
+    background: #923258;
+    padding: 20px;
+    margin: 10px;
+}
+.mainBlock2, .mainBlock4{
+    background: #6d1337;
+    padding: 5px 20px;
+    margin: 10px;
+}
+.mainBlock3{
+    margin: 10px;
+}
+.mainBlock3_grid{
+    display: grid;
+    grid-template-columns: 3.5fr 5.5fr 1fr;
+    border: solid 2px #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background: #2a4f6e;
+    font-family: sans-serif;
+    color: white;
+}
+.flex-conteiner{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    
+}
+.flex-conteiner>div{
+    flex: 1;
+}
+.column div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 0;
+    margin-left: 8em;
+    
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.images>div, .images>div:hover{
+    width: 64px;
+    height: 64px;
+}
+
+
+
+.bottomFooter{
+    display: flex;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+div>h4:hover{
+    text-decoration: underline;
+}
+
+div>image:hover{
+    background-image: url(icons/fb.png);
+}

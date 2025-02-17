@@ -95,7 +95,7 @@ header,footer{
 }
 /*оформление футера */
 .footer-menu{
-
+background: local;
 }
 .footer-menu li{
     list-style: none;
